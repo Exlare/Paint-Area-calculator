@@ -4,7 +4,7 @@ import math
 def paint_calc(height, width, cover):
     area = height * width
     numb_of_cans = math.ceil(area / cover)
-    print(f"You'll need {numb_of_cans} cans of paint.")
+    print(f"You'll need {numb_of_cans} cans of paint, the result have been rounded up.")
 
 
 test_h = int(input("Height of wall: "))
